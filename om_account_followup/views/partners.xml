@@ -29,6 +29,7 @@
             <field name="inherit_id" ref="base.view_partner_tree"/>
             <field name="arch" type="xml">
                 <field name="complete_name" position="after">
+                    <field name="payment_amount_due"/>
                     <field name="payment_responsible_id" invisible="1"/>
                 </field>
             </field>
